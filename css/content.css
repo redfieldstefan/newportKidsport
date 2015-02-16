@@ -1,0 +1,113 @@
+.content {
+  width: 100%;
+  
+}
+
+/*APPAREL PAGES*/
+
+
+
+.apparel-feature {
+	width: 100%;
+	background: tomato;
+	
+}
+
+.apparel-feature .text {
+	width: 50%;
+	float: left;
+	padding-left: 15%;
+	padding-top: 75px;
+}
+
+	.apparel-feature .text h1 {
+		
+	}
+
+	.apparel-feature .text p {
+
+		width: 75%;
+		text-align: justify;
+		background: white;
+		padding-top: 50px;
+		font-size: 20px;
+		line-height: 1.5;
+	}
+
+/*.apparel-feature .small-feature {
+	f
+}
+
+.apparel-feature .small-features{
+	float: left;
+	background: green;
+
+}*/
+
+
+.apparel-feature .text .shop {
+	margin-top: 50px;
+	width: 40%;
+	
+	background: tomato;
+	
+}
+
+	.apparel-feature .text .shop:hover {
+		outline: 1px solid tomato;
+	}
+
+.apparel-feature .text .shop p {
+	text-align: center;
+	color: white;
+	background: tomato;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+		.apparel-feature .text .shop p:hover {
+			background: white;
+			color: tomato;
+		}
+
+.apparel-feature .images {
+	padding-top: 25px;
+	width: 50%;
+	float: left;
+}
+
+
+
+/*ABOUT US PAGES*/
+
+.about .img {
+	width: 50%;
+	float: left;
+
+}
+
+.about .text {
+	width: 50%;
+	float: left;
+
+
+}
+
+.about .text h1 {
+	font-size: 25px;
+	width: 75%;
+	padding-left: 10%;
+	padding-top: 50px;
+
+}
+
+
+.about .text p {
+	width: 75%;
+	text-align: justify;
+	padding-left: 10%;
+	padding-top: 25px;
+}

@@ -1,0 +1,190 @@
+@import 'media.css';
+
+@-ms-viewport {
+  width: device-width;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+  list-style: none;
+
+}
+
+html {
+  font: 100%/1.5em Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 12em;
+}
+
+body {
+ 	font: 87.5%/1.5em Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ .container {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+ }
+
+
+
+#featured {
+  width: 100%;
+  background: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  position: fixed;
+  z-index: 1;
+}
+
+#featured img {
+  margin-top: 10px;
+  margin-left: 6%;
+  width: 250px;
+  float: left;
+  border: 1px solid ;
+
+
+}
+
+#featured h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #006666;
+  float: left;
+  padding-top: 10px;
+  padding-left: 6%;
+
+ }
+
+
+
+.logo-groups {
+  width: 90%;
+  margin-top: 325px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.logo-group {
+  margin-top: 50px;
+  margin-left: 12%;
+
+}
+
+.logo-group h2 {
+  padding-bottom: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  clear: both;
+}
+
+.logo-box {
+  width: 25%;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  padding-bottom: 25px;
+
+}
+
+.logo-box p {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.logo-box img {
+
+  width: 100%;
+}
+
+.logo-box img:hover {
+  
+  border: 2px solid tomato;
+  cursor: pointer;
+}
+
+@media (min-width: 525px) {
+
+
+  #featured img {
+    width: 450px;
+    margin-left: 12%;
+  }
+
+  #featured h1 {
+    width: 100%;
+    padding-left: 15%;
+  }
+
+  .logo-groups {
+    margin-top: 475px; 
+  }
+
+}
+
+
+
+@media (min-width: 920px) {
+
+
+#featured {
+  width: 100%;
+  background: white;
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
+  position: fixed;
+  z-index: 1;
+}
+
+#featured img {
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 360px;
+  float: left;
+  border: 1px solid ;
+
+
+}
+
+#featured h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #006666;
+  float: left;
+  padding-top: 175px;
+  padding-left: 4%;
+  width: 50%;
+ }
+
+
+ .logo-groups {
+  width: 90%;
+  margin-top: 400px;
+}
+
+.logo-group {
+  margin-top: 50px;
+  margin-left: 100px;
+
+}
+
+.logo-box {
+  width: 15%;
+ 
+
+}
+
+
+}
