@@ -95,20 +95,21 @@
 /*ABOUT US PAGES*/
 
 .about .img {
-	width: 50%;
+	width: 100%;
 	float: left;
+
 
 }
 
 .about .text {
-	width: 50%;
+	width: 100%;
 	float: left;
 
 
 }
 
 .about .text h1 {
-	font-size: 25px;
+	font-size: 20px;
 	width: 75%;
 	padding-left: 10%;
 	padding-top: 50px;
@@ -117,10 +118,21 @@
 
 
 .about .text p {
-	width: 75%;
+	width: 90%;
 	text-align: justify;
 	padding-left: 10%;
 	padding-top: 25px;
+	font-size: 12px;
+}
+
+.about .text a {
+	color: red;
+}
+
+.about .text ul {
+	padding-left: 10%;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 @media (min-width: 500px) {
@@ -165,4 +177,26 @@
 	margin-left: 0;
 
 }
+.about .img {
+	width: 50%;
+	float: left;
+
+}
+.about .text {
+	width: 50%;
+	float: left;
+
+
+}
+
+.about .text h1 {
+	font-size: 25px;
+}
+
+.about .text p {
+	width: 75%;
+	text-align: justify;
+	padding-left: 10%;
+	padding-top: 25px;
+	font-size: 15px;
 }
