@@ -90,6 +90,42 @@
 	float: left;
 }
 
+.companion {
+	width: 300px;
+	padding-top: 25px;
+
+}
+
+.companion .box {
+	border: 2px solid black;
+	margin-top: 20px;
+	height: 105px;
+	width: 300px;
+}
+
+	.companion .box:hover {
+		border: 2px solid tomato;
+	}
+
+	.companion .box:hover > p {
+		color: #9b0a39;
+	}
+
+
+
+.apparel-feature .text .companion p {
+	float: left;
+	padding-top: 35px;
+	margin-left: 40px;
+	width: 125px;
+	text-transform: uppercase;
+}
+
+.companion img {
+	width: 100px;
+	float: left;
+	
+}
 
 
 /*ABOUT US PAGES*/
@@ -97,7 +133,7 @@
 .about .img {
 	width: 100%;
 	float: left;
-
+	display: none;
 
 }
 
@@ -180,6 +216,7 @@
 .about .img {
 	width: 50%;
 	float: left;
+	display: inline;
 
 }
 .about .text {
