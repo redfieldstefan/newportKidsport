@@ -93,6 +93,7 @@
 .companion {
 	width: 300px;
 	padding-top: 25px;
+	padding-bottom: 25px;
 
 }
 
@@ -149,6 +150,7 @@
 	width: 75%;
 	padding-left: 10%;
 	padding-top: 50px;
+	line-height: 1.25;
 
 }
 
