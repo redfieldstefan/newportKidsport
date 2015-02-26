@@ -7,12 +7,14 @@ $(document).ready(function() {
 
 $('nav ul li:nth-child(2)').click(function(){
 	
-	navOpen = false;
+	var navOpen = false;
 	
 	if (!navOpen) {
 		$('nav ul li ul ').css('display', 'block');
 		navOpen = true;
-	} else {
+
+	}
+	else {
 		$('nav ul li ul ').css('display', 'none');
 		navOpen = false;
 	}
