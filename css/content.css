@@ -208,6 +208,39 @@
 
 }
 
+.swatches {
+	width: 100%;
+	margin-top: 50px;
+	height: 700px;
+}
+
+.swatch {
+
+	float: left;
+	width: 100%;
+	margin-left: 15%;
+	padding-top: 25px;
+}
+
+.swatch img {
+	width: 20%;
+	float: left;
+}
+
+.swatch .text {
+	margin-left: 2%;
+	float: left;
+	width: 50%;
+}
+
+.swatch .text h1 {
+
+}
+
+.swatch .text p {
+	width: 85%;
+	text-align: justify;
+}
 
 
 
@@ -301,6 +334,6 @@
 .fabrics-head p {
 	margin-left: 8%;
 	width: 30%;
-	font-size: 14px;
+	font-size: 15px;
 }
 }
