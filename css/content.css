@@ -218,19 +218,19 @@
 
 	float: left;
 	width: 100%;
-	margin-left: 15%;
+	padding-left: 7.5%;
 	padding-top: 25px;
 }
 
 .swatch img {
-	width: 20%;
+	width: 85%;
 	float: left;
 }
 
 .swatch .text {
-	margin-left: 2%;
+	padding-left: 2%;
 	float: left;
-	width: 50%;
+	width: 100%;
 }
 
 .swatch .text h1 {
@@ -240,6 +240,7 @@
 .swatch .text p {
 	width: 85%;
 	text-align: justify;
+	
 }
 
 
@@ -282,7 +283,35 @@
 	font-size: 12px;
 }
 
+.swatch {
+	padding-left: 15%;
 }
+
+.swatch img {
+	width: 20%;
+	float: left;
+}
+
+.swatch .text {
+	margin-left: 2%;
+	float: left;
+	width: 50%;
+}
+
+.swatch .text h1 {
+
+}
+
+.swatch .text p {
+	width: 85%;
+	margin-left: none;
+	margin-right: none;
+	
+}
+
+
+}
+
 
 @media (min-width: 1000px) {
 
