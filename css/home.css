@@ -227,6 +227,7 @@
 .season.full {
   height: 700px;
   background: url('../img/season-full2.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 .season.full .text{
