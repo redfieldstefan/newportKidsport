@@ -124,8 +124,9 @@
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 300px;
+  width: 10%;
 }
+
 
 .seasons {
 
@@ -164,6 +165,8 @@
   height: 300px;
   width: 100%;
   background: url('../img/season-full-mobile.jpg') no-repeat center center;
+  background-size: cover;
+  float: left;
 }
 
 .season.left{
@@ -187,7 +190,7 @@
 }
 
 .events {
-  padding-top: 75px;
+  padding-top: 50px;
   padding-bottom: 75px;
   width: 100%;
   float: left;
@@ -199,6 +202,8 @@
 
 .events h1 {
   text-align: center;
+  line-height: 1.25;
+  font-size: 18px;
 }
 
 .events .main {
@@ -206,8 +211,8 @@
 }
 
 .events .text {
-  width: 50%;
-  padding-left: 150px;
+  width: 90%;
+  padding-left: 5%;
   float: left;
 }
 
@@ -217,8 +222,8 @@
   background: tomato;
   color: white;
   float: left;
-  position: absolute;
-  margin-top: 350px;
+ /* position: absolute;*/
+  margin-top: 50px;
 }
 
 .events .button:hover {
@@ -249,15 +254,13 @@
 
 .events p{
   padding-top: 25px;
-  width: 80%;
+  width: 100%;
   text-align: justify;
   float: left;
 }
 
 .events img {
-  float: left;
-  width: 50%;
-  padding-right: 100px;
+  display: none;
 }
 
 
@@ -281,12 +284,14 @@
   }
 
 .breadcrumb {
-  width: 350px;
+  width: 10%;
+ 
 }
 
   .season {
     float: left;
     width: 50%;
+    padding-bottom: 50px;
   }
   .season .text {
   width: 60%;
@@ -317,4 +322,39 @@
   padding-top: 50px;
   font-size: 20px;
 }
+
+/*.events .text {
+  width: 5
+  90%;
+  padding-left: 150px;
+  float: left;
+}*/
+
+.events h1 {
+  font-size: 30px;
+}
+
+.events p {
+  width: 80%;
+}
+
+
+
+}
+
+
+@media (min-width: 1050px) {
+  .events img {
+    display: inline;
+  float: left;
+  width: 50%;
+  padding-right: 100px;
+}
+
+.events .text {
+  width: 50%;
+  padding-left: 150px;
+  float: left;
+}
+
 }
