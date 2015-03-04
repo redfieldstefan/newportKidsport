@@ -15,6 +15,14 @@
   z-index: 15;
 }
 
+.socialicons p {
+  float: left;
+  padding-top: 5px;
+  margin-left: 90px;
+  text-transform: uppercase;
+
+}
+
 
 
 .icon {

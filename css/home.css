@@ -134,6 +134,7 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  float: left;
 }
 
 .season {
@@ -183,6 +184,80 @@
 .season.full .text p {
   /*padding-top: 50px;*/
   font-size: 20px;
+}
+
+.events {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 100%;
+  float: left;
+}
+
+.events a {
+  color: #003399;
+}
+
+.events h1 {
+  text-align: center;
+}
+
+.events .main {
+  padding-top: 50px;
+}
+
+.events .text {
+  width: 50%;
+  padding-left: 150px;
+  float: left;
+}
+
+.events .button {
+  height: 75px;
+  width: 175px;
+  background: tomato;
+  color: white;
+  float: left;
+  position: absolute;
+  margin-top: 350px;
+}
+
+.events .button:hover {
+  background: white;
+  border: 3px solid tomato;
+}
+
+.events .button:hover > p{
+  color: #9b0a39;
+}
+
+.events .button p {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.events h2 {
+  text-transform: uppercase;
+  color: tomato;
+}
+
+.events h3 {
+  text-transform: uppercase;
+  color: #9b0a39;
+  padding-top: 5px;
+}
+
+.events p{
+  padding-top: 25px;
+  width: 80%;
+  text-align: justify;
+  float: left;
+}
+
+.events img {
+  float: left;
+  width: 50%;
+  padding-right: 100px;
 }
 
 
