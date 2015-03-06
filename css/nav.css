@@ -47,9 +47,10 @@
 
 .logo p {
   font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+  font-weight: bold;
+  font-size: 13px;
   text-transform: uppercase;
-  color: #9b0a39;
+  color: #f85a37;
   padding-top: 5px;
 }
 
@@ -199,7 +200,7 @@ li.shop:hover {
 nav {
 
   width: 60%;
-  padding-top: 25px;
+  padding-top: 35px;
   padding-bottom: 50px;
  }
 
