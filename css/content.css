@@ -208,12 +208,12 @@
 }
 
 .fabrics-head p {
-	margin-left: 4%;
+	margin-left: 5%;
 	width: 85%;
 	padding-top: 10px;
 	text-align: justify;
 	color:  white;
-	font-size: 12px;
+	font-size: 14px;
 
 }
 
@@ -228,7 +228,7 @@
 	float: left;
 	width: 100%;
 	padding-left: 7.5%;
-	padding-top: 25px;
+	padding-top: 50px;
 }
 
 .swatch img {
@@ -258,8 +258,9 @@
 
 .swatch-options {
 	float: left; 
-	width: 50%;
-	padding-top: 50px;
+	width: 100%;
+	padding-top: 25px;
+	padding-right: 25px;
 	padding-left: 2%;
 }
 
@@ -272,66 +273,67 @@
 
 @media (min-width: 500px) {
 
-/*	.apparel-feature .text {
-	width: 50%;
-	float: left;
-	padding-left: 15%;
-	padding-top: 75px;
-}
+	/*	.apparel-feature .text {
+		width: 50%;
+		float: left;
+		padding-left: 15%;
+		padding-top: 75px;
+	}
 
-.apparel-feature .text p {
-		
-		width: 75%;
-		font-size: 20px;
-}
-
-
-*/
-
-.fabrics-head {
-	width: 100%;
-	background: url('../img/fabrics-background.jpg') no-repeat center;
-	background-size: cover;
-	padding-bottom: 175px;
-}
-
-.fabrics-head h1 {
-	padding-top: 150px;
-	margin-left: 8%;
-
-}
-
-.fabrics-head p {
-	margin-left: 8%;
-	padding-top: 25px;
-	width: 80%;
-	font-size: 12px;
-}
-
-.swatch {
-	padding-left: 5%;
-}
-
-.swatch img {
-	width: 20%;
-	float: left;
-}
-
-.swatch .text {
-	float: left;
-	width: 50%;
-}
-
-.swatch .text h1 {
+	.apparel-feature .text p {
+			
+			width: 75%;
+			font-size: 20px;
+	}
 
 
-}
+	*/
 
-.swatch .text p {
-	width: 85%;
-	margin-left: none;
-	margin-right: none;	
-}
+	.fabrics-head {
+		width: 100%;
+		background: url('../img/fabrics-background.jpg') no-repeat center;
+		background-size: cover;
+		padding-bottom: 175px;
+	}
+
+	.fabrics-head h1 {
+		padding-top: 150px;
+		margin-left: 8%;
+
+	}
+
+	.fabrics-head p {
+		margin-left: 8%;
+		padding-top: 25px;
+		width: 80%;
+		font-size: 12px;
+	}
+
+	.swatch {
+		padding-left: 5%;
+	}
+
+	.swatch img {
+		width: 50%;
+		float: left;
+	}
+
+	.swatch .text {
+		float: left;
+		width: 50%;
+
+	}
+
+	.swatch .text h1 {
+
+
+	}
+
+	.swatch .text p {
+		width: 85%;
+		margin-left: none;
+		margin-right: none;	
+	}
 
 
 }
@@ -339,76 +341,81 @@
 
 @media (min-width: 1000px) {
 
-.apparel-feature .text {
-	width: 50%;
-	float: left;
-	padding-left: 10%;
-	padding-top: 75px;
-}
+	.apparel-feature .text {
+		width: 50%;
+		float: left;
+		padding-left: 10%;
+		padding-top: 75px;
+	}
 
-.apparel-feature .text p {
-		
+	.apparel-feature .text p {
+			
+			width: 75%;
+			font-size: 20px;
+	}
+
+	.apparel-feature .images {
+		width: 45%;
+		margin-left: 0;
+
+	}
+	.about .img {
+		width: 50%;
+		float: left;
+		display: inline;
+
+	}
+
+	.about .about-mobile img {
+		display: none;
+	}
+
+	.about .text {
+		width: 50%;
+		float: left;
+	}
+
+	.about .text h1 {
+		font-size: 25px;
+	}
+
+	.about .text p {
 		width: 75%;
-		font-size: 20px;
-}
+		text-align: justify;
+		padding-left: 10%;
+		padding-top: 25px;
+		font-size: 15px;
+	}
 
-.apparel-feature .images {
-	width: 45%;
-	margin-left: 0;
+	.fabrics-head p {
+		margin-left: 8%;
+		width: 30%;
+		font-size: 15px;
+	}
 
-}
-.about .img {
-	width: 50%;
-	float: left;
-	display: inline;
+	.swatch {
+		height: 400px;
+		padding-left: 8%;
+	}
 
-}
+	.swatch .text p{
+		width: 500px;	
+	}
 
-.about .about-mobile img {
-	display: none;
-}
+	.swatch img {
+		width: 40%;
+	}
 
-.about .text {
-	width: 50%;
-	float: left;
-}
+	.swatch .text h1 {
+		padding-top: 15px;
+		padding-bottom: 25px;
+		font-size: 30px;
+	}
 
-.about .text h1 {
-	font-size: 25px;
-}
+	.swatch-options {
+		padding-top: 50px;
+		width: 50%;
+	}
 
-.about .text p {
-	width: 75%;
-	text-align: justify;
-	padding-left: 10%;
-	padding-top: 25px;
-	font-size: 15px;
-}
 
-.fabrics-head p {
-	margin-left: 8%;
-	width: 30%;
-	font-size: 15px;
-}
-
-.swatch {
-	height: 400px;
-	padding-left: 10%;
-}
-
-.swatch .text p{
-
-	width: 75%;
-	
-}
-
-.swatch img {
-	width: 40%;
-}
-
-.swatch .text h1 {
-	padding-top: 15px;
-	padding-bottom: 25px;
-	font-size: 30px;
-}
 }
