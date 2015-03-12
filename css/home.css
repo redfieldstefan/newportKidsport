@@ -145,6 +145,32 @@
  
 }
 
+.season .button {
+   height: 75px;
+  width: 175px;
+  background: tomato;
+  color: white;
+  float: left;
+  margin-top: 50px;
+}
+
+.season .button:hover {
+  background: white;
+  border: 3px solid tomato;
+}
+
+.season .button:hover > p{
+  padding-top: 23px;
+  color: #9b0a39;
+}
+
+.season .text .button p {
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .season .text {
   width: 90%;
   margin-top: 25px;
@@ -172,7 +198,8 @@
 .season.left{
   
 }
-.season.right{
+.season.right img{
+  padding-top: 25px;
   
 }
 
@@ -185,12 +212,11 @@
   text-align: justify;
 }
 .season.full .text p {
-  /*padding-top: 50px;*/
   font-size: 20px;
 }
 
 .events {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 75px;
   width: 100%;
   float: left;
@@ -222,7 +248,6 @@
   background: tomato;
   color: white;
   float: left;
- /* position: absolute;*/
   margin-top: 50px;
 }
 
@@ -379,6 +404,9 @@
   padding-top: 50px;
 }
 
+.season .button p {
+  padding-top: 25px;
+}
 .season.full {
   height: 700px;
   background: url('../img/season-full2.jpg') no-repeat center center;
@@ -396,6 +424,11 @@
 .season.full .text p {
   padding-top: 50px;
   font-size: 20px;
+}
+
+.season.right img{
+  padding-top: 0px;
+  
 }
 
 /*.events .text {
@@ -419,6 +452,10 @@
 
 
 @media (min-width: 1050px) {
+
+.events {
+  padding-top: 50px;
+}
   .events img {
     display: inline;
   float: left;
