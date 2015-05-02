@@ -366,6 +366,10 @@
 
 	}
 
+	.about .img img {
+		display: block;
+	}
+
 	.about .about-mobile img {
 		display: none;
 	}

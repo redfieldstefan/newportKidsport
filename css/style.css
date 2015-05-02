@@ -2,7 +2,7 @@
 @import 'nav.css';
 @import 'home.css';
 @import 'content.css';
-
+@import 'gallery.css';
 
 @-ms-viewport {
   width: device-width;

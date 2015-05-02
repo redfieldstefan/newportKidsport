@@ -298,10 +298,11 @@
 .blog h1 {
   text-align: center;
   padding-bottom: 100px;
+
 }
 
 .blog .post {
-  width: 28%;
+  width: 90%;
   float: left;
   margin-left: 4%;
 
@@ -313,10 +314,22 @@
   border-radius: 50%;
 }
 
+  .blog .post img:hover {
+    border: 4px solid tomato;
+  }
+
 .blog .post .text{
   float: left;
   padding-left: 10px;
   width: 55%;
+}
+
+.blog .post .text h3 {
+  color: #3333CC;
+}
+
+.blog .post .text h4 {
+  color: #9b0a39;
 }
 
 .blog .post .text p {
@@ -363,89 +376,87 @@
 @media (min-width: 500px) {
 
   .head {
-    height: 950px; 
+      height: 950px; 
+  }
+    
+  .items {
+    padding-left: 1%;
   }
   
-  .items {
-  padding-left: 1%;
-}
   .item {
-    width: 23%;
-    margin-right: 1.85%;
-    margin-top: 100px;
+      width: 23%;
+      margin-right: 1.85%;
+      margin-top: 100px;
   }
 
   .item p {
-  font-size: 25px;
-}
+    font-size: 25px;
+  }
 
   .shopAll {
-      margin-left: 40.5%;
+        margin-left: 40.5%;
   }
 
-.breadcrumb {
-  width: 10%;
- 
-}
+  .breadcrumb {
+    width: 10%;
+   
+  }
 
   .season {
-    float: left;
-    width: 50%;
-    padding-bottom: 50px;
+      float: left;
+      /*width: 50%;*/
+      padding-bottom: 50px;
   }
+
   .season .text {
-  width: 60%;
-  margin-top: 200px;
-  margin-left: 25%;
-  text-align: justify;
-}
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 15%;
+    text-align: justify;
+  }
 
-.season .text p {
-  padding-top: 50px;
-}
+  .season .text p {
+    padding-top: 50px;
+  }
 
-.season .button p {
-  padding-top: 25px;
-}
-.season.full {
-  height: 700px;
-  background: url('../img/season-full2.jpg') no-repeat center center;
-  background-size: cover;
-}
+  .season .button p {
+    padding-top: 25px;
+  }
+  .season.full {
+    height: 700px;
+    background: url('../img/season-full2.jpg') no-repeat center center;
+    background-size: cover;
+  }
 
-.season.full .text{
-  width: 40%;
-  color: white;
-  float: left;
-  margin-left: 50%;
-  margin-top: 200px;
- 
-}
-.season.full .text p {
-  padding-top: 50px;
-  font-size: 20px;
-}
+  .season.full .text{
+    width: 40%;
+    color: white;
+    float: left;
+    margin-left: 50%;
+    margin-top: 200px;
+   
+  }
+  .season.full .text p {
+    padding-top: 50px;
+    font-size: 20px;
+  }
 
-.season.right img{
-  padding-top: 0px;
-  
-}
+  .season.right img{
+    padding-top: 0px;
+    
+  }
 
-/*.events .text {
-  width: 5
-  90%;
-  padding-left: 150px;
-  float: left;
-}*/
+  .events h1 {
+    font-size: 30px;
+  }
 
-.events h1 {
-  font-size: 30px;
-}
+  .events p {
+    width: 80%;
+  }
 
-.events p {
-  width: 80%;
-}
-
+  .blog .post {
+  width: 75%;
+  }
 
 
 }
@@ -453,20 +464,29 @@
 
 @media (min-width: 1050px) {
 
-.events {
-  padding-top: 50px;
-}
-  .events img {
-    display: inline;
-  float: left;
-  width: 50%;
-  padding-right: 100px;
-}
+  .season {
+    float: left;
+    width: 50%;
+  }
 
-.events .text {
-  width: 50%;
-  padding-left: 150px;
-  float: left;
-}
+  .events {
+    padding-top: 50px;
+  }
+    .events img {
+      display: inline;
+    float: left;
+    width: 50%;
+    padding-right: 100px;
+  }
+
+  .events .text {
+    width: 50%;
+    padding-left: 150px;
+    float: left;
+  }
+
+  .blog .post {
+  width: 28%;
+  }
 
 }
