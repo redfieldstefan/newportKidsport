@@ -4,7 +4,8 @@
 /*  background: url('../img/frost-background.jpg') no-repeat center center;*/
   background-size: cover;
   background-attachment: fixed;
-  height: 1000px;
+ /* height: 1000px;*/
+  height: 750px;
 
 }
 
@@ -376,12 +377,13 @@
 @media (min-width: 500px) {
 
   .head {
-      height: 950px; 
+      height: 650px; 
   }
     
   .items {
     /*padding-left: 21%;*/
-    margin-left: 9%;
+   /* margin-left: 9%;*/
+   padding-left: 21%;
   }
   
   .item {
@@ -395,7 +397,8 @@
   }
 
   .shopAll {
-        margin-left: 40.5%;
+    margin-left: 40.5%;
+    margin-top: 500px;
   }
 
   .breadcrumb {
