@@ -144,7 +144,7 @@
 }
 
 .about .about-mobile img {
-	display: inline;
+	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -273,22 +273,7 @@
 
 @media (min-width: 500px) {
 
-	/*	.apparel-feature .text {
-		width: 50%;
-		float: left;
-		padding-left: 15%;
-		padding-top: 75px;
-	}
-
-	.apparel-feature .text p {
-			
-			width: 75%;
-			font-size: 20px;
-	}
-
-
-	*/
-
+	
 	.fabrics-head {
 		width: 100%;
 		background: url('../img/fabrics-background.jpg') no-repeat center;
@@ -363,11 +348,13 @@
 		width: 50%;
 		float: left;
 		display: inline;
+		height: 100%;
 
 	}
 
 	.about .img img {
 		display: block;
+
 	}
 
 	.about .about-mobile img {
@@ -388,7 +375,8 @@
 		text-align: justify;
 		padding-left: 10%;
 		padding-top: 25px;
-		font-size: 15px;
+		/*font-size: 15px;*/
+		font-size: 1vw;
 	}
 
 	.fabrics-head p {
