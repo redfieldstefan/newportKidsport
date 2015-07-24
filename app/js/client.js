@@ -5,14 +5,14 @@ require('angular-route');
 require('angular-sanitize');
 require('angular-animate');
 
-var kidsportApp = angular.module('kidsportApp', ['ngRoute', 'ngSanitize', 'ngAnimate']);
+var kidsportApp = angular.module('kidsportApp', ['ngRoute','ngSanitize', 'ngAnimate']);
 
 //controllers
 require('./controllers/main_controller')(kidsportApp);
 
 //directives
 require('./directives/nav_directive')(kidsportApp);
-
+require('./directives/footer_directive')(kidsportApp);
 //routes
 
 kidsportApp.config(['$routeProvider', function($routeProvider){
@@ -39,15 +39,15 @@ kidsportApp.config(['$routeProvider', function($routeProvider){
     })
     .when('/apparel/raincape', {
       templateUrl: 'views/apparel/raincape.html',
-      controller: 'ApparelController'
+      controller: 'MainController'
     })
     .when('/apparel/babycape', {
       templateUrl: 'views/apparel/babycape.html',
-      controller: 'ApparelController'
+      controller: 'MainController'
     })
     .when('/apparel/rainbubble', {
       templateUrl: 'views/apparel/rainbubble.html',
-      controller: 'ApparelController'
+      controller: 'MainController'
     })
     .otherwise({redirectTo:'/'});
 }]);

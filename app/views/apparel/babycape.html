@@ -1,149 +1,51 @@
-<!DOCTYPE html>
-<html lang ="en">
+<div data-ng-controller="MainController" class = "apparel-feature">
+	<div class="text">
+		<h1>The Baby Cape</h1>
+		<p>Our all time favorite! The baby cape offers warmth without confinement. Designed for parents looking for an easy solution to fussy layering, the baby cape pulls over easy for instant coverage! Perfect for year round comfiness.</p>
 
-<head>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content ="width=device-width, initial-scale=1">
+		<p>
+		An insulation layer made from moisture wicking fleece. Includes snaps underarms and full hood.
+		</p>
 
-	<title>Newport Kidsport - Childrens Outdoor Clothing</title>
-	
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css" />
-	<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400|Nunito:400,300' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-	<script type="text/javascript" src="../js/effects.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56313656-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</head>
-
-<body>
-
-	<div class="container">
-	<div class="menu">
-			
-		<div class="socialicons">
-			<div class= "icon">
-				<a href="https://www.pinterest.com/newportkidsport/pins"><img src='../img/pinterest.png' /></a>
-			</div>
-			<div class= "icon">
-				<a href="https://www.facebook.com/pages/Newport-Kidsport/367712086742067" target ="blank"><img src='../img/fb.png' /></a>
-			</div>
-
+		<div class="shop">
+			<a href="https://newportkidsport.squarespace.com/all/insulating-baby-cape"><p>shop</p></a>
 		</div>
 
+		<div class="companion">
+			<h3>Best Layered With</h3>
 
-			<div class = "logo">
-				<a href="../index.html"><img src="../img/logo.png"/></a>
-				<p>Worry Free Play</p>
+			<div data-ng-click="redirect('apparel/raincape')" class = "box">
+				<p>Rain Cape</p>
+				<img src="../img/jacket1.png" />
 			</div>
-			<nav>
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-						<li><a href="#">Apparel</a>
-						<ul>
-							<li><a href="raincape.html">Rain Cape</a></li>
-							<li><a href="dresscoat.html">Dress Coat</a></li>
-							<li><a href="babycape.html">Baby Cape</a></li>
-							<li><a href="rainbubble.html">Rain Bubble</a></li>
-						</ul>
-						</li>
-					<li><a href="../about.html">About Us</a></li>
-					<li><a href="../stockist.html">Stockist</a></li>
-					<li><a href="../contact.html">Contact</a></li>
-					<li class = "shop"><a href="https://newportkidsport.squarespace.com/">Shop</a></li>
-				</ul>
+		</div>
+	</div>
 
-			</nav>
-		</div><!--END MENU-->
+	<div class="images">
+		<div class="main">
+			<img src="../img/babycapesketch.png"/>
+		</div>
 
-
-		<div class="content">
-
-			<div class = "apparel-feature">
-				<div class="text">
-					<h1>The Baby Cape</h1>
-					<p>Our all time favorite! The baby cape offers warmth without confinement. Designed for parents looking for an easy solution to fussy layering, the baby cape pulls over easy for instant coverage! Perfect for year round comfiness.</p>
-
-					
-					<p>
-					An insulation layer made from moisture wicking fleece. Includes snaps underarms and full hood.
-					</p>
-			
-
-					<div class="shop">
-						<a href="https://newportkidsport.squarespace.com/all/insulating-baby-cape"><p>shop</p></a>
-					</div>
-
-					<div class="companion">
-						<h3>Best Layered With</h3>
-						
-						<a href = "raincape.html"><div class = "box">
-							<p>Rain Cape</p>
-							<img src="../img/jacket1.png" />
-						</div></a>
-					</div>
-					
-
-
+		<div class = "small-features">
+				<div class = "small-feature">
+					<img src="../img/babycapesketch.png"/>
 				</div>
-				<div class="images">
-					<div class="main">
-						<img src="../img/babycapesketch.png"/>
-					</div>
-
-					<div class = "small-features">
-
-							<!-- <div class = "small-feature">
-								<img src="../img/870x700-babycapesketch.png"/>
-							</div> -->
-							<div class = "small-feature">
-								<img src="../img/babycapesketch.png"/>
-							</div>
-							<div class = "small-feature">
-								<img src="../img/wool/wool-green-babycape.png"/>
-							</div>
-							<div class = "small-feature">
-								<img src="../img/wool/wool-chocolate-babycape.png"/>
-							</div>
-							<div class = "small-feature">
-								<img src="../img/fleece/fleece-blue-babycape.png"/>
-							</div>
-							<div class = "small-feature">
-								<img src="../img/870x700-babycape1.png" />
-							</div>
-							<div class = "small-feature">
-								<img src="../img/870x700-babycape3.png" />
-							</div>
-						
-					</div>
+				<div class = "small-feature">
+					<img src="../img/wool/wool-green-babycape.png"/>
 				</div>
-			</div>
-		
-		</div><!--END CONTENT-->
+				<div class = "small-feature">
+					<img src="../img/wool/wool-chocolate-babycape.png"/>
+				</div>
+				<div class = "small-feature">
+					<img src="../img/fleece/fleece-blue-babycape.png"/>
+				</div>
+				<div class = "small-feature">
+					<img src="../img/870x700-babycape1.png" />
+				</div>
+				<div class = "small-feature">
+					<img src="../img/870x700-babycape3.png" />
+				</div>
 
-		<div class="footer">
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="../about.html">About</a></li>
-				<li><a href="../contact.html">Contact</a></li>
-				<li><a href="../stockist.html">Stockist</a></li>
-				<li><a href="../fabrics.html">Fabrics</a></li>
-				<li><a href="https://newportkidsport.squarespace.com/">Shop</a></li>
-			</ul>
-	
-		</div><!--END FOOTER-->
-
-	</div><!--END CONTAINER-->
-
-</body>
-</html>
+		</div>
+	</div>
+</div>

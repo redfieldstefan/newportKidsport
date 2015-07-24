@@ -3,7 +3,6 @@
 module.exports = function(grunt) {
 
   var path = require('path');
-  var webpack = require('webpack');
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -22,12 +21,8 @@ module.exports = function(grunt) {
         entry: __dirname + '/app/js/client.js',
         output: {
           path: path.join(__dirname, '/build'),
-          filename: 'bundle.min.js'
-        },
-        plugins: [
-          new webpack.optimize.UglifyJsPlugin({minimize: true})
-        ]
-
+          filename: 'bundle.js'
+        }
       }
     },
 
@@ -44,7 +39,7 @@ module.exports = function(grunt) {
         cwd: 'app/',
         expand: true,
         flatten: false,
-        src: 'style/img/**/*',
+        src: 'img/**/*',
         dest: 'build/'
       }
     },
@@ -54,7 +49,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: 'app/',
-          src: 'style/**/*.css',
+          src: 'css/**/*.css',
           dest: 'build/',
           ext: '.min.css'
         }]
