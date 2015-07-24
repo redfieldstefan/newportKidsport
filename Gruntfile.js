@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       client: {
         entry: __dirname + '/app/js/client.js',
         output: {
-          path: path.join(__dirname, '/build'),
+          path: path.join(__dirname, '/public'),
           filename: 'bundle.js'
         }
       }
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         expand: true,
         flatten: false,
         src:'**/*.html',
-        dest:'build/',
+        dest:'public/',
         filter: 'isFile'
       },
       images: {
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
         expand: true,
         flatten: false,
         src: 'img/**/*',
-        dest: 'build/'
+        dest: 'public/'
       }
     },
 
@@ -50,7 +50,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'app/',
           src: 'css/**/*.css',
-          dest: 'build/',
+          dest: 'public/',
           ext: '.min.css'
         }]
       }
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 
     clean: {
       dev: {
-        src: 'build/'
+        src: 'public/'
       }
     },
 

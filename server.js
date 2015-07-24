@@ -9,7 +9,7 @@ var router = express.Router();
 process.env.APP_SECRET = process.env.APP_SECRET || 'newportkidsport'
 
 app.use([
-  express.static(path.join(__dirname, '/build')),
+  express.static(path.join(__dirname, '/public')),
   bodyParser.json()
 ]);
 
