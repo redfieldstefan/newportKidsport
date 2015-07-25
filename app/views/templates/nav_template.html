@@ -1,0 +1,33 @@
+<div data-ng-controller="MainController" class="menu">
+  <section class="socialicons">
+    <div class= "icon">
+      <a href="https://www.pinterest.com/newportkidsport/pins/"><img src='img/pinterest.png' /></a>
+    </div>
+    <div class= "icon">
+      <a href="https://www.facebook.com/pages/Newport-Kidsport/367712086742067"><img src='img/fb.png' /></a>
+    </div>
+  </section>
+
+  <div data-ng-click="redirect('home')" class = "logo">
+    <img src="img/logo.png"/>
+    <p>Worry Free Play</p>
+  </div>
+
+  <nav>
+    <ul>
+      <li data-ng-click="redirect('')">Home</li>
+      <li><a href="#">Apparel</a>
+        <ul>
+          <li data-ng-click="redirect('apparel/raincape')"><a>Rain Cape</a></li>
+          <li data-ng-click="redirect('apparel/babycape')"><a>Baby Cape</a></li>
+          <li data-ng-click="redirect('apparel/rainbubble')"><a>Rain Bubble</a></li>
+        </ul>
+        </li>
+      <li data-ng-click="redirect('about')">About Us</li>
+      <li data-ng-click="redirect('stockist')">Stockist</li>
+      <li data-ng-click="redirect('contact')">Contact</li>
+      <li class = "shop"><a href="https://newportkidsport.squarespace.com/">Shop</a></li>
+    </ul>
+  </nav>
+
+</div>
