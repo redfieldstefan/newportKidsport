@@ -3,6 +3,7 @@
 module.exports = function(grunt) {
 
   var path = require('path');
+  var webpack = require('webpack')
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -23,7 +24,10 @@ module.exports = function(grunt) {
           path: path.join(__dirname, '/public'),
           filename: 'bundle.js'
         }
-      }
+      },
+      plugins: [
+          new webpack.optimize.UglifyJsPlugin({minimize: true})
+      ]
     },
 
     copy: {

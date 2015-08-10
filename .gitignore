@@ -4,3 +4,4 @@ Newport Assets/**/*
 .env
 *.DS_Store
 **/build/*
+blog/**/*
