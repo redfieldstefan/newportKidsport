@@ -3,8 +3,10 @@
 module.exports = function(app) {
   app.controller('MainController', ['$scope', '$location', function($scope, $location) {
 
+    $scope.navOpen = false;
+    $scope.windowWidth = window.innerWidth;
+
     $scope.redirect = function(destination) {
-      console.log('clicked');
       $location.path('/' + destination);
     };
 
@@ -19,16 +21,16 @@ module.exports = function(app) {
       thisParent.attr('src', thisImg);
     });
 
-    angular.element('nav ul li:nth-child(2)').click(function(){
-      var navOpen = false;
-      if (!navOpen) {
-        angular.element('nav ul li ul ').css('display', 'block');
-        navOpen = true;
-
-      }
-      else {
-        angular.element('nav ul li ul ').css('display', 'none');
-        navOpen = false;
+    angular.element('#apparel').click(function(){
+      if($scope.windowWidth < 750){
+        if (!$scope.navOpen) {
+          angular.element('ul.apparel-list').css('display', 'block');
+          $scope.navOpen = true;
+        }
+        else {
+          angular.element('ul.apparel-list').css('display', 'none');
+          $scope.navOpen = false;
+        }
       }
     });
 
