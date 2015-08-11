@@ -3,5 +3,6 @@ Newport Assets/**/*
 **/npm-debug.log
 .env
 *.DS_Store
-**/build/*
+**/build/**/*
+**/public/**/*
 blog/**/*
