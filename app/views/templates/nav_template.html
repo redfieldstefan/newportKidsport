@@ -16,8 +16,8 @@
   <nav>
     <ul>
       <li data-ng-click="redirect('')">Home</li>
-      <li><a href="#">Apparel</a>
-        <ul>
+      <li id="apparel" data-ng-click="toggleList()"><a>Apparel</a>
+        <ul class="apparel-list">
           <li data-ng-click="redirect('apparel/raincape')"><a>Rain Cape</a></li>
           <li data-ng-click="redirect('apparel/babycape')"><a>Baby Cape</a></li>
           <li data-ng-click="redirect('apparel/rainbubble')"><a>Rain Bubble</a></li>
