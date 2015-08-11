@@ -2,7 +2,6 @@
   width: 100%;
   padding-top: 5px;
   background: #FFCC66;
-  /*background: #9b0a39;*/
 }
 
 .socialicons {
@@ -23,8 +22,6 @@
 
 }
 
-
-
 .icon {
   width: 50px;
   margin-right: 10px;
@@ -38,6 +35,10 @@
   margin-right: auto;
   text-align: center;
 }
+
+  .logo:hover {
+    cursor: pointer;
+  }
 
 .logo img {
   width: 150px;
