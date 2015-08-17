@@ -34,7 +34,7 @@ module.exports = function(app) {
     });
 
     angular.element('body').click(function() {
-      apparelList.removeClass('hidden');
+      angular.element('#apparel').removeClass('hidden');
     });
 
   }]);
