@@ -21,17 +21,20 @@ module.exports = function(app) {
       thisParent.attr('src', thisImg);
     });
 
-    angular.element('#apparel').click(function(){
+    angular.element('#apparel').click(function() {
+      var apparelList = angular.element('#apparel');
       if($scope.windowWidth < 750){
-        if (!$scope.navOpen) {
-          angular.element('ul.apparel-list').css('display', 'block');
-          $scope.navOpen = true;
+        if(apparelList.hasClass('hidden')) {
+          apparelList.removeClass('hidden');
         }
         else {
-          angular.element('ul.apparel-list').css('display', 'none');
-          $scope.navOpen = false;
+          apparelList.addClass('hidden');
         }
       }
+    });
+
+    angular.element('body').click(function() {
+      apparelList.removeClass('hidden');
     });
 
   }]);
