@@ -21,17 +21,25 @@ module.exports = function(app) {
       thisParent.attr('src', thisImg);
     });
 
-    angular.element('#apparel').click(function(){
+    angular.element('#apparel').click(function() {
+      var apparelList = angular.element('#apparel-list');
       if($scope.windowWidth < 750){
-        if (!$scope.navOpen) {
-          angular.element('ul.apparel-list').css('display', 'block');
-          $scope.navOpen = true;
+        if(apparelList.hasClass('hidden')) {
+          apparelList.removeClass('hidden');
+          apparelList.parent('li').css('background', '#66FFCC');
+          return apparelList.addClass('show');
         }
         else {
-          angular.element('ul.apparel-list').css('display', 'none');
-          $scope.navOpen = false;
+          apparelList.removeClass('show');
+          apparelList.parent('li').css('background', 'none');
+          apparelList.parent('li').css('outline', 'none');
+          return apparelList.addClass('hidden');
         }
       }
+    });
+
+    angular.element('body').click(function() {
+      angular.element('#apparel').removeClass('hidden');
     });
 
   }]);
