@@ -16,13 +16,13 @@
   <nav>
     <ul>
       <li data-ng-click="redirect('')">Home</li>
-      <li id="apparel" class="hidden" data-ng-click="toggleList()"><a>Apparel</a>
-        <ul class="apparel-list">
+      <li id="apparel"><a>Apparel</a>
+        <ul id="apparel-list" class="hidden">
           <li data-ng-click="redirect('apparel/raincape')"><a>Rain Cape</a></li>
           <li data-ng-click="redirect('apparel/babycape')"><a>Baby Cape</a></li>
           <li data-ng-click="redirect('apparel/rainbubble')"><a>Rain Bubble</a></li>
         </ul>
-        </li>
+      </li>
       <li data-ng-click="redirect('about')">About Us</li>
       <li data-ng-click="redirect('stockist')">Stockist</li>
       <li data-ng-click="redirect('contact')">Contact</li>

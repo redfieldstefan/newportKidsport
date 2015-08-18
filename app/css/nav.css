@@ -112,7 +112,6 @@ nav ul li {
 
 
 nav ul ul {
-  display: none;
   background: #339966;
   border-radius: 0px;
   padding: 0;
@@ -174,17 +173,14 @@ li.shop:hover {
   color: tomato;
 }
 
-#apparel {
+#apparel-list.show {
   display: block;
 }
 
-#apparel.hidden {
+#apparel-list.hidden {
   display: none;
 }
 
-#apparel.hidden li {
-  background: none;
-}
 
 @media (min-width: 900px){
 
