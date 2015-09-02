@@ -22,8 +22,8 @@ module.exports = function(app) {
     });
 
     angular.element('#apparel').click(function() {
+      console.log('click');
       var apparelList = angular.element('#apparel-list');
-      if($scope.windowWidth < 750){
         if(apparelList.hasClass('hidden')) {
           apparelList.removeClass('hidden');
           apparelList.parent('li').css('background', '#66FFCC');
@@ -35,7 +35,6 @@ module.exports = function(app) {
           apparelList.parent('li').css('outline', 'none');
           return apparelList.addClass('hidden');
         }
-      }
     });
 
     angular.element('body').click(function() {
