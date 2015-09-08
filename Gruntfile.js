@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       client: {
         entry: __dirname + '/app/js/client.js',
         output: {
-          path: path.join(__dirname, '/public'),
+          path: path.join(__dirname, '/build'),
           filename: 'bundle.min.js'
         }
       },
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         expand: true,
         flatten: false,
         src:'**/*.html',
-        dest:'public/',
+        dest:'build/',
         filter: 'isFile'
       },
       images: {
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         expand: true,
         flatten: false,
         src: 'img/**/*',
-        dest: 'public/'
+        dest: 'build/'
       }
     },
 
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'app/',
           src: 'css/**/*.css',
-          dest: 'public/',
+          dest: 'build/',
           ext: '.min.css'
         }]
       }
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 
     clean: {
       dev: {
-        src: 'public/'
+        src: 'build/'
       }
     },
 
