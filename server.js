@@ -9,12 +9,12 @@ var router = express.Router();
 process.env.APP_SECRET = process.env.APP_SECRET || 'newportkidsport'
 
 app.use([
-  express.static(path.join(__dirname, '/public')),
+  express.static(path.join(__dirname, '/build')),
   bodyParser.json()
 ]);
 
 app.listen(PORT, function() {
-  console.log('SERVER IS WERKIN HARD ON PORT ' + PORT )
+  console.log('SERVER IS WERKIN HARD ON PORT ' + PORT );
 });
 
 
