@@ -3,9 +3,6 @@
 module.exports = function(app) {
   app.controller('MainController', ['$scope', '$location', function($scope, $location) {
 
-    $scope.navOpen = false;
-    $scope.windowWidth = window.innerWidth;
-
     $scope.redirect = function(destination) {
       $location.path('/' + destination);
     };
@@ -22,24 +19,21 @@ module.exports = function(app) {
     });
 
     angular.element('#apparel').click(function() {
-      var apparelList = angular.element('#apparel-list');
-      if($scope.windowWidth < 750){
-        if(apparelList.hasClass('hidden')) {
-          apparelList.removeClass('hidden');
-          apparelList.parent('li').css('background', '#66FFCC');
-          return apparelList.addClass('show');
-        }
-        else {
-          apparelList.removeClass('show');
-          apparelList.parent('li').css('background', 'none');
-          apparelList.parent('li').css('outline', 'none');
-          return apparelList.addClass('hidden');
-        }
+      $scope.windowWidth = window.innerWidth;
+      if($scope.windowWidth < 750) {
+        var apparelList = angular.element('#apparel-list');
+          if(apparelList.hasClass('hidden')) {
+            apparelList.removeClass('hidden');
+            apparelList.parent('li').css('background', '#66FFCC');
+            return apparelList.addClass('show');
+          }
+          else {
+            apparelList.removeClass('show');
+            apparelList.parent('li').css('background', 'none');
+            apparelList.parent('li').css('outline', 'none');
+            return apparelList.addClass('hidden');
+          }
       }
-    });
-
-    angular.element('body').click(function() {
-      angular.element('#apparel').removeClass('hidden');
     });
 
   }]);

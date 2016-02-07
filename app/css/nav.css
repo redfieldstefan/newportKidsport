@@ -35,6 +35,10 @@
   text-align: center;
 }
 
+  .logo:hover {
+    cursor: pointer;
+  }
+
 .logo img {
   width: 150px;
   margin-left: auto;
@@ -173,6 +177,7 @@ li.shop:hover {
   color: tomato;
 }
 
+
 #apparel-list.show {
   display: block;
 }
@@ -203,7 +208,7 @@ li.shop:hover {
     font-size: 14px;
   }
 
- nav ul li:hover > ul{
+  nav ul li:hover > ul{
     display: block;
   }
 
@@ -214,5 +219,9 @@ li.shop:hover {
 
   nav ul ul li a {
     line-height: 1.5;
+  }
+
+  #apparel:hover > #apparel-list {
+    display: block;
   }
 }
