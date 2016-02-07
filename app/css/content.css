@@ -1,6 +1,6 @@
 .content {
   width: 100%;
-  
+
 }
 
 /*APPAREL PAGES*/
@@ -10,7 +10,7 @@
 .apparel-feature {
 	width: 100%;
 	background: tomato;
-	
+
 }
 
 .apparel-feature .text {
@@ -22,46 +22,35 @@
 
 	.apparel-feature .text h1 {
 		line-height: 1.25;
-		
 	}
 
 	.apparel-feature .text p {
-
 		width: 100%;
-		/*text-align: justify;*/
 		background: white;
 		padding-top: 50px;
 		font-size: 15px;
 		line-height: 1.5;
 	}
 
-
-
 .apparel-feature .small-features{
 
 	float: left;
 	width: 100%;
-	padding-top: 50px;
-	
-
+	padding-top: 40px;
+	padding-bottom: 25px;
 }
 
 .apparel-feature .small-feature {
 	float: left;
-	/*background: green;*/
 	margin-right: 10px;
 	height: 100px;
 	width: 100px;
-
 }
-
 
 .apparel-feature .text .shop {
 	margin-top: 50px;
 	width: 40%;
-	
 	background: tomato;
-	
 }
 
 	.apparel-feature .text .shop:hover {
@@ -126,7 +115,7 @@
 .companion img {
 	width: 100px;
 	float: left;
-	
+
 }
 
 
@@ -253,11 +242,11 @@
 .swatch .text p {
 	width: 85%;
 	text-align: justify;
-	
+
 }
 
 .swatch-options {
-	float: left; 
+	float: left;
 	width: 100%;
 	padding-top: 25px;
 	padding-right: 25px;
@@ -273,7 +262,7 @@
 
 @media (min-width: 500px) {
 
-	
+
 	.fabrics-head {
 		width: 100%;
 		background: url('../img/fabrics-background.jpg') no-repeat center;
@@ -317,7 +306,7 @@
 	.swatch .text p {
 		width: 85%;
 		margin-left: none;
-		margin-right: none;	
+		margin-right: none;
 	}
 
 
@@ -334,7 +323,7 @@
 	}
 
 	.apparel-feature .text p {
-			
+
 			width: 75%;
 			font-size: 20px;
 	}
@@ -391,7 +380,7 @@
 	}
 
 	.swatch .text p{
-		width: 500px;	
+		width: 500px;
 	}
 
 	.swatch img {
