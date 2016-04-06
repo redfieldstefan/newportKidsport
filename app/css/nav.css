@@ -1,7 +1,8 @@
 .menu  {
   width: 100%;
   padding-top: 5px;
-  background: #FFCC66;
+  /*background: #FFCC66;*/
+  background: #333e50;
 }
 
 .socialicons {
@@ -154,7 +155,8 @@ li.shop:hover {
   float: left;
   width: 100%;
   height: 250px;
-  background: #9b0a39;
+  /*background: #9b0a39;*/
+  background: #333e50;
 }
 
 .footer ul {
