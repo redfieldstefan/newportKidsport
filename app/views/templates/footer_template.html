@@ -1,11 +1,10 @@
-<div class="footer">
+<div class="footer" data-ng-controller="MainController">
   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="stockist.html">Stockist</a></li>
-    <li><a href="fabrics.html">Fabrics</a></li>
-    <li><a href="blog/">Blog</a></li>
+    <li><a data-ng-click="redirect('index')">Home</a></li>
+    <li><a data-ng-click="redirect('about')">About</a></li>
+    <li><a data-ng-click="redirect('contact')">Contact</a></li>
+    <li><a data-ng-click="redirect('stockist')">Stockist</a></li>
+    <li><a data-ng-click="redirect('fabrics')>Fabrics</a></li>
     <li><a href="https://newportkidsport.squarespace.com/">Shop</a></li>
   </ul>
 </div><!--END FOOTER-->

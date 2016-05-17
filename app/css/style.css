@@ -42,6 +42,10 @@ a {
   color: black;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 br {
   width: 70%;
   height: 2px;
